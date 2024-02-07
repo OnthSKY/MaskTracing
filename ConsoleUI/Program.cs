@@ -8,7 +8,7 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             PttManager manager = new(new PersonManager());
-            manager.GiveMask(new Person { FirstName="Sıttık Kemal2", LastName="Yoğurt", NationalIdentity=38620461864, DateOfBirthYear=2000});
+            manager.GiveMask(new Person { FirstName="Kemal", LastName="Yoğurt", NationalIdentity=12, DateOfBirthYear=001});
             Console.ReadLine();
         }
     }
